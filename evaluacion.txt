@@ -1,0 +1,67 @@
+Practica
+
+- Que permisologia tiene los siguientes archivos
+rwx rwx --- 770
+--- --- --- 000
+rw- rw- --- 660
+r-x r-x r-x 555
+--- rw- r-x 065
+--x --x --x 111
+
+
+- Ejecuten la búsqueda con grep buscando cunaguaro y guarde la salida en un archivo llamado
+firefox.txt
+
+	ps -aux | grep cunaguaro >> firefox.txt
+
+-Cuanto pesa tu /home/ y cuanto pesa /etc
+
+	du -ms /home
+
+
+- Se requiere guardar un archivo dentro de la configuración de la memoria del computador dentro
+de un archivo llamado memoria.txt
+
+
+
+-Se requiere guardar toda la configuración de la versión del kernel en un archivo llamado kernel.txt
+
+- Como matamos un proceso del computador
+
+	con el comando kill, por ejemplo:
+	
+	kill 9 5859
+
+	donde 9 es una opcion que elimina el proceso padre y los hijos
+	y 5859 es el identificador del proceso
+
+- Que hace el respectivo comando $cat toto > toto2
+
+	Agrega al final el contenido de toto en toto2
+
+- Cree una carpeta con tu nombre 
+
+	mkdir roger
+
+- Dentro de la carpeta, creamos tres archivos de nombre c1 c2 c3 
+
+	touch c1.txt c2.txt c3.txt
+
+- Guardamos en el c1 su nombre completo
+
+	echo "Roger Araque" > c1.txt
+
+- Guardamos el c3 el correo electrónico
+
+	echo "raismaelr@gmail.com" > c3.txt
+
+- Describa a continuación la función de los siguientes directorios
+
+/bin     -->  Almacena los archivos binarios
+/home/   -->  Almacena la informaciond el usuario
+/media   -->  Se montan las unidades como USB, CDROM, de forma temporal
+/var     -->  Almacena archivos varuables, por ejemplo, paginas alojadas en el servidor apache en /var/www/
+/	 -->  La raiz del sistema de archivos en Linux
+/sbin    -->  Almacena archivos binarios usados por el usuario, como mkdir, touch, cp, rm
+/boot    -->  Archivos de configuracion de inicio del sistema
+
